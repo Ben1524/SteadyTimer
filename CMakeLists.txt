@@ -54,6 +54,8 @@ endif()
 add_library(gocoroutine_lib STATIC
         src/TimeLineTimer.cpp
         src/clock.h
+        src/MultiThreadTimer.cpp
+        src/MultiThreadTimer.h
 )
 
 target_link_libraries(gocoroutine_lib
