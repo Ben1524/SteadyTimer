@@ -67,13 +67,6 @@ struct LFLock
     }
 };
 
-struct FakeLock {
-    void lock() {}
-    bool is_lock() { return false; }
-    bool try_lock() { return true; }
-    void unlock() {}
-};
-
 /**
  * @brief 高性能稳定时钟类（基于x86_64 TSC硬件计数器）
  *

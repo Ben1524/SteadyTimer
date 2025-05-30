@@ -66,6 +66,7 @@ target_link_libraries(gocoroutine_lib
 # 主可执行文件配置
 add_executable(SteadyTimer
         main.cpp
+        Singleton.h
 )
 
 target_link_libraries(SteadyTimer
